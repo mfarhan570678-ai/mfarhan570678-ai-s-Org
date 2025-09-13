@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Gemini Commerce",
+  "description": "A modern, responsive e-commerce storefront built with React and Tailwind CSS. Features include product listings, a shopping cart, and an admin dashboard with AI-powered product description generation using the Gemini API.",
+  "requestFramePermissions": []
+}

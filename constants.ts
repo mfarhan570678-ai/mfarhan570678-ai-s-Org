@@ -1,0 +1,77 @@
+
+import { Product } from './types';
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'Astro-Glide Sneakers',
+    description: 'Walk on clouds with these futuristic sneakers, featuring self-lacing technology and customizable LED soles.',
+    price: 159.99,
+    imageUrl: 'https://picsum.photos/seed/sneaker/800/600',
+    category: 'Footwear',
+    stock: 50,
+  },
+  {
+    id: 2,
+    name: 'Chrono-Watch X',
+    description: 'A sleek smartwatch that not only tells time but also projects a holographic display for notifications.',
+    price: 299.50,
+    imageUrl: 'https://picsum.photos/seed/watch/800/600',
+    category: 'Accessories',
+    stock: 30,
+  },
+  {
+    id: 3,
+    name: 'Cyber-Jacket Pro',
+    description: 'Stay warm and connected with this smart jacket. Features include integrated heating, a built-in power bank, and touch-sensitive cuffs.',
+    price: 450.00,
+    imageUrl: 'https://picsum.photos/seed/jacket/800/600',
+    category: 'Apparel',
+    stock: 25,
+  },
+  {
+    id: 4,
+    name: 'Quantum Sound Pods',
+    description: 'Experience unparalleled audio quality with these noise-cancelling wireless earbuds. 48-hour battery life.',
+    price: 199.99,
+    imageUrl: 'https://picsum.photos/seed/earbuds/800/600',
+    category: 'Electronics',
+    stock: 100,
+  },
+  {
+    id: 5,
+    name: 'Holo-Backpack',
+    description: 'A minimalist backpack with a customizable holographic panel. Lightweight, durable, and water-resistant.',
+    price: 120.00,
+    imageUrl: 'https://picsum.photos/seed/backpack/800/600',
+    category: 'Bags',
+    stock: 75,
+  },
+  {
+    id: 6,
+    name: 'Gravity-Defy Desk Lamp',
+    description: 'A modern desk lamp with a levitating bulb that floats and spins magically. Adds a touch of sci-fi to any room.',
+    price: 89.99,
+    imageUrl: 'https://picsum.photos/seed/lamp/800/600',
+    category: 'Home Goods',
+    stock: 40,
+  },
+   {
+    id: 7,
+    name: 'Sonic Bloom Planter',
+    description: 'A smart planter that plays gentle sound frequencies to encourage plant growth. Self-watering and app-controlled.',
+    price: 75.50,
+    imageUrl: 'https://picsum.photos/seed/planter/800/600',
+    category: 'Home Goods',
+    stock: 60,
+  },
+  {
+    id: 8,
+    name: 'Digital Canvas T-Shirt',
+    description: 'Express yourself with a t-shirt that has a flexible e-ink screen. Change the design anytime from your phone.',
+    price: 99.00,
+    imageUrl: 'https://picsum.photos/seed/tshirt/800/600',
+    category: 'Apparel',
+    stock: 80,
+  }
+];
